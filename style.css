@@ -37,6 +37,11 @@ ul a{
     /* background-color: rgb(187, 187, 228); */
     gap: 40px;
 }
+@media only screen and (max-width: 750px){
+    .profile-inner{
+        flex-direction: column;
+    }
+}
 .pic img{
     width: 250px;
     border-radius: 50% ;
